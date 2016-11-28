@@ -1,0 +1,58 @@
+/* Header section */
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Average');
+
+header h1 {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+}
+
+/* Main section */
+main {
+  height: auto;
+  font-family: 'Average', serif;;
+  font-size: 20px;
+
+}
+
+/* Footer section */
+footer {
+  height: auto;
+  font-family: 'Average', serif;;;
+  font-size: 12px;
+}
+
+/* Other CSS */
+.wrapper {
+  width: 800px;
+  margin: auto;
+  padding: 0px 30px 0px 30px;
+
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2 {
+  color: #b38600;
+  font-family: 'Fjalla One', sans-serif;;
+}
+
+.backgroundouter {
+  background-image: url("images/outer.png");
+  background-repeat: repeat;
+}
+.backgroundinner {
+  background-image: url("images/inner.png");
+  background-repeat: repeat;
+}
+
+a:link    { color: blue; }
+a:visited { color: purple; }
+a:hover   { color: #b38600; }
+a:active  { color: #b38600; }
